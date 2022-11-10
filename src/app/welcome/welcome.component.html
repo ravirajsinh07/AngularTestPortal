@@ -1,0 +1,19 @@
+<div class="container">
+  <h1 class="display-5 fw-bold roboto">Welcome to EvoTech solutions</h1>
+  <p class="col-md-4 fs-4 roboto">
+    This test will have total 20 questions.Each questions holds 5 marks.Each and
+    every questions are mandatory.
+  </p>
+  <h4 class="lora">Rules:</h4>
+  <ol class="lora rules">
+    <li>Correct answer gives you 5 marks</li>
+    <li>Incorrect answer will substract 5 marks from your gained marks</li>
+    <li>You will have 60 seconds to answer each question</li>
+    <li>Refreshing the page will reset test</li>
+  </ol>
+  <div class="name col-md-4 my-3">
+    <label for="candidate-name" class="oswald mx-2">Enter your good name !</label>
+    <input #name type="text" class="form-control" id="candidate-name"/>
+  </div>
+  <button class=" roboto btn btn-outline btn-lg"routerLink="/questions" (click)="startTest()">Start a test!</button>
+</div>

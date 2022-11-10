@@ -1,0 +1,359 @@
+{
+    "questions": [{
+            "questionText": "Which of the following is correct about TypeScript?",
+            "options": [{
+                    "text": "Angular is based on typescript"
+                    
+                },
+                {
+                    "text": "This is a superset of JavaScript"
+                },
+                {
+                    "text": "TypeScript is maintained by Microsoft"
+                },
+                {
+                    "text": "All of the above",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is NOT a type used in TypeScript?",
+            "options": [{
+                    "text": "number"
+                },
+                {
+                    "text": "string"
+                },
+                {
+                    "text": "boolean"
+                },
+                {
+                    "text": "enum",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "How can we specify properties and methods for an object in TypeScript?",
+            "options": [{
+                    "text": "Use classes."
+                },
+                {
+                    "text": "Use interfaces.",
+                    "correct": true
+                },
+                {
+                    "text": "Use enums."
+                },
+                {
+                    "text": "Use async/await."
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "How else can Array<number> be written in TypeScript?",
+            "options": [{
+                    "text": "@number"
+                },
+                {
+                    "text": "number[]",
+                    "correct": true
+                },
+                {
+                    "text": "number!"
+                },
+                {
+                    "text": "number?"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "In which of these does a class take parameters?",
+            "options": [{
+                    "text": "constructor",
+                    "correct": true
+                },
+                {
+                    "text": "destructor"
+                },
+                {
+                    "text": "import"
+                },
+                {
+                    "text": "subscribe"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "Which is NOT an access modifier?",
+            "options": [{
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "Which keyword allows us to share information between files in TypeScript?",
+            "options": [{
+                    "text": "import"
+                },
+                {
+                    "text": "export",
+                    "correct": true
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "constructor"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "Which is an array method to generate a new array based on a condition?",
+            "options": [{
+                    "text": "filter",
+                    "correct": true
+                },
+                {
+                    "text": "map"
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "enum"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "How is a property accessible within a class?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        },
+        {
+            "questionText": "Where would the following code likely be found in an Angular application? routerLink=/crisis-center",
+            "options": [{
+                    "text": "In the component metadata"
+                    
+                },
+                {
+                    "text": "In a service"
+                },
+                {
+                    "text": "In the template",
+                    "correct": true
+                },
+                {
+                    "text": "In the component class"
+                }
+            ]
+        },
+        {
+            "questionText": "Observables help you manage . . . . . . . . data",
+            "options": [{
+                    "text": "Synchronous"
+                    
+                },
+                {
+                    "text": "Asynchronous",
+                    "correct": true
+                },
+                {
+                    "text": "Both"
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following is not a feature of Angular",
+            "options": [{
+                    "text": "Multithread",
+                    "correct": true
+                },
+                {
+                    "text": "Typescript"
+                },
+                {
+                    "text": "Services"
+                },
+                {
+                    "text": "Components"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the decorator used for configuring your module class?",
+            "options": [{
+                    "text": "@NgModule",
+                    "correct": true
+                },
+                {
+                    "text": "@NgApp"
+                },
+                {
+                    "text": "Both"
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "Which angular decorator allows us to define the pipe name that is globally available for use in any template in the across application?",
+            "options": [{
+                    "text": "pipeName"
+                    
+                },
+                {
+                    "text": "pipeDeco"
+                },
+                {
+                    "text": "Pipe",
+                    "correct" : true
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "RxJS can be used for?",
+            "options": [{
+                    "text": "Browser"
+                    
+                },
+                {
+                    "text": "Server"
+                },
+                {
+                    "text": "Both",
+                    "correct": true
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "Router is part of which of the following module?",
+            "options": [{
+                    "text": "@angular/core"
+                    
+                },
+                {
+                    "text": "@angular/router",
+                    "correct": true
+                },
+                {
+                    "text": "Both"
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following is not a hook application life cycle?",
+            "options": [{
+                    "text": "ngViewSmart",
+                    "correct": true
+                },
+                {
+                    "text": "ngOnChanges"
+                },
+                {
+                    "text": "ngOnInit"
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "What does AOT stand for?",
+            "options": [{
+                    "text": "Ahead-Of-Time Compilation",
+                    "correct": true
+                },
+                {
+                    "text": "Angular object templates"
+                },
+                {
+                    "text": "Both"
+                },
+                {
+                    "text": "None of above"
+                }
+            ]
+        },
+        {
+            "questionText": "What is .Subscribe ?",
+            "options": [{
+                    "text": "Streams data in asynchronously"
+                    
+                },
+                {
+                    "text": "Streams data in Synchronously"
+                },
+                {
+                    "text": "Both",
+                    "correct": true
+                },
+                {
+                    "text": "None of above"
+                }
+            ]},
+        {
+            "questionText": "Which of the following does TypeScript use to specify types?",
+            "options": [{
+                    "text": ":",
+                    "correct": true
+                },
+                {
+                    "text": ";"
+                },
+                {
+                    "text": "!"
+                },
+                {
+                    "text": "&"
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        }
+    ]
+}

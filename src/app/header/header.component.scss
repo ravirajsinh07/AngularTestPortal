@@ -1,0 +1,42 @@
+
+nav.navbar{
+    
+    background-color: #B6E2D3;
+
+}
+
+.nav-item ul{
+    width: 600px;
+    
+    display:flex;
+    list-style: none;
+    justify-content: space-between!important;
+
+    
+}
+ul li button{
+    font-weight: bold;
+    color: #f4667c;
+    border: 1px solid #f4667c;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+ul li button:hover{
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #f4667c;
+    border-radius: 30px;
+    background-color: #f4667c;
+    
+}
+i.fa{
+    font-size: xx-large;
+    padding: 2px;
+    color: #f4667c;
+}
+span{
+    color: #f4667c;
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: xx-large;  
+}

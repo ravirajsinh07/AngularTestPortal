@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+*{/* SCSS HEX */
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+    $pearly-purple: #a967a0ff;
+    $cyber-grape: #5d3977ff;
+    $russian-violet: #372852ff;
+    $verdigris: #48a9a6ff;
+    
+    
+   // background-image: linear-gradient(to right top, #372852, #3e2b59, #442f60, #4c3267, #53356e, #5d3a74, #663f7b, #704481, #7e4c89, #8c5591, #9b5e98, #a967a0);
+}
+:root {
+    
+  
+    --font1: 'Lora', serif;
+    --font2: 'Oswald', sans-serif;
+    --font3: 'Roboto', sans-serif;
+    --font4: 'League Gothic', sans-serif
+
+  }
+body{
+    // background-color:#fef9f8;
+    background-color:#B6E2D3;
+    
+}
+.lora{
+    font-family: var(--font1);
+}
+.oswald{
+    font-family: var(--font2); 
+}
+.roboto{
+    font-family: var(--font3); 
+}
+.gothic{
+    font-family: var(--font4);
+}

@@ -1,0 +1,32 @@
+.icon{
+    font-size: xx-large;
+}.d-flex button.btn{
+    color:#f4667c;
+    font-size: xx-large;
+}
+.d-flex button.btn:disabled{
+    color:#f4667c;
+    border: 0px;
+}
+
+.card{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #FAE8E0;
+    color: #f4667c;
+
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+li .card:hover{
+    border: 1px solid#f4667c;
+}
+ ul{
+    padding: 0;
+ }
+ 
